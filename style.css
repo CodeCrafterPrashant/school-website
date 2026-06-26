@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f0f2f5;
+}
+
+/* TOP BAR */
+.topbar {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e3a8a;
+    color: white;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1') center/cover;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background: #facc15;
+    font-weight: bold;
+}
+
+.hero .secondary {
+    background: white;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    padding: 50px;
+    background: #eef2ff;
+}
+
+/* FACILITIES */
+.cards {
+    padding: 40px;
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* ADMISSION */
+.admission {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.admission button {
+    padding: 12px 25px;
+    border: none;
+    background: #facc15;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
